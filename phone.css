@@ -1,0 +1,57 @@
+@media (max-width:768px){
+   /* nav section responsive css */
+    a{
+        padding: 0.6rem;
+        padding-left: 0rem;
+        font-family: none;
+        font-size: 2vh;
+    }
+
+    /* home section responsive css */
+    .home p{
+        display: none;
+    }
+    .home{
+        padding-top: 32vh;
+    }
+    .home h1{
+        font-size: 1.5rem;
+        margin-top: -9vh;
+        padding-left: 2vh;
+        font-family: fangsong;
+    }
+    .home h5{
+        padding-left: 7vh;
+        padding-top: 0vh;
+        font-size: 12px;
+        font-family: monospace;
+    }
+    button{
+        left: 4vh;
+        top: 35vh;
+    }
+    button:hover{
+      padding: .7vh;
+    }
+
+   /* contact section responsive css */
+    #contact{
+        height: 80vh;
+    }
+    .contact{
+       width: 40vh;
+    }
+    .lottie{
+        top: 1vh;
+        left: 6vh;
+        height: 22vh;
+    }
+    form{
+        top: -4vh;
+    }
+    #btn{
+        margin-left: 9vh;
+    }
+
+
+}
