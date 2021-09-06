@@ -52,6 +52,50 @@
     #btn{
         margin-left: 9vh;
     }
-
-
+}
+@media (max-width:361px){
+    nav{
+        padding: 2.8rem;
+    }
+    .lottie{
+        top: -1.8vh;
+    }
+    #gallary{
+        top: 7vh;
+        position: relative;
+    }
+    .items{
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .box img{
+        height: 40vh;
+        width: 90%;
+    }
+    #trainer{
+        top: 16vh;
+        position: relative;
+    }
+    #shop{
+        top: 6vh;
+        position: relative;
+    }
+}
+@media (max-width:378px){
+    nav{
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+    #gallary{
+        top: 9vh;
+        position: relative;
+    }
+    #trainer{
+        top: 16vh;
+        position: relative;
+    }
+    #shop{
+        top: 6vh;
+        position: relative;
+    }
 }
