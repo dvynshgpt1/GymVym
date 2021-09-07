@@ -83,8 +83,9 @@
         position: relative;
     }
     #shop{
-        top: 6vh;
+        top: 27vh;
         position: relative;
+        height: 100vh;
     }
     #contact{
         height: 58vh;
