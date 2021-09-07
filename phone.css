@@ -36,15 +36,17 @@
 
    /* contact section responsive css */
     #contact{
-        height: 80vh;
+        height: 58vh;
+        top: -3vh;
     }
     .contact{
        width: 40vh;
+       height: 78vh;
     }
     .lottie{
-        top: 1vh;
+        top: 4vh;
         left: 6vh;
-        height: 22vh;
+        height: 11vh;
     }
     form{
         top: -4vh;
@@ -53,6 +55,144 @@
         margin-left: 9vh;
     }
 }
+
+
+
+@media (max-width:427px){
+    nav{
+        padding: 1.8rem;
+
+    }
+    .lottie{
+        top: -1.8vh;
+    }
+    #gallary{
+        top: 7vh;
+        position: relative;
+    }
+    .items{
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .box img{
+        height: 40vh;
+        width: 90%;
+    }
+    #trainer{
+        top: 16vh;
+        position: relative;
+    }
+    #shop{
+        top: 6vh;
+        position: relative;
+    }
+    #contact{
+        height: 58vh;
+    }
+    button{
+        top: 27vh;
+        left: 2vh;
+    }
+    .home h5{
+        padding-left: 4vh;
+    }
+    form{
+        top: -8vh;
+    }
+}
+
+
+
+@media (max-width:942px){
+    .home{
+        padding-top: 21vh;
+    }
+    h5 {
+        padding-left: 20vh;
+        padding-top: 0vh;
+        font-size: 3vh;
+    }
+    .home h1 {
+        padding-left: 11vh;
+        padding-top: 1.6vh;
+    }
+    .home p{
+        font-size: 8.8px;
+    }
+    button{
+        top:55vh ;
+        left: 16vh;
+    }
+    #gallary h1{
+        padding-top: 5.9vh;
+    }
+    .items{
+        margin-top: -8vh;
+    }
+    .box img{
+        height: 42vh;
+        width: 89%;
+        margin-top: 18vh;
+    }
+
+    #trainer{
+        height: 100vh;
+    }
+    .intro{
+        float: left;
+        position: relative;
+        top: 5vh;
+        left: 19vh;
+    }
+    .intro img{
+        height: 55vh;
+        width: 55vh;
+        margin-top: 11vh;
+    }
+    .intro p{
+        float: right;
+        font-size: 12px;
+        position: relative;
+        top: -50vh;
+        left: 86vh;
+        width: 81vh;
+    }
+
+    #shop{
+        top: 17vh;
+        left: -38vh;
+    }
+    #contact{
+        top: 34vh;
+    }
+    #contact h1{
+        text-align: left;
+        position: relative;
+        top: 27vh;
+        padding-left: 8vh;
+    }
+    form{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -22vh;
+    left: -25vh;
+    }
+    input{
+        display: flex;
+        width: 40vh;
+        margin-left: 2vh;
+        padding: 0.5rem;
+    }
+    #btn{ 
+    position: relative;
+    top: 13vh;
+    left: -98vh;
+    }
+}
+
+
+
 @media (max-width:361px){
     nav{
         padding: 2.8rem;
@@ -81,6 +221,9 @@
         position: relative;
     }
 }
+
+
+
 @media (max-width:378px){
     nav{
         padding: 1rem;

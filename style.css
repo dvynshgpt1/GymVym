@@ -191,6 +191,8 @@ a:hover{
 #shop{
     height: 70vh;  
     width: 100%;
+    top: 16vh;
+    position: relative;
 }
 .items1{
    display: flex;
@@ -208,6 +210,8 @@ width: 45vh;
 #contact{
     height: 64vh;
     width: 100%;
+    top: 16vh;
+    position: relative;
 }
 .contact{
     padding-top: 0vh;
