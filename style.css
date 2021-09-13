@@ -16,13 +16,24 @@ h5{
     color: rgb(75, 153, 255);
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .3s;
+    transform: scaleX(0);
 }
+h5[data-scroll="in"]{
+    transform: scaleX(1);
+}
+
 .home  h1{
     padding-left: 24vh;
     padding-top: 1.6vh;
     font-size: 1.6rem;
     font-family:cursive;
     color: yellow;
+    transition: .9s .7s;
+    transform: scaleX(0);
+}
+.home h1[data-scroll="in"]{
+    transform: scaleX(1);
 }
 .home p{
     margin: 2vh;
@@ -32,28 +43,48 @@ h5{
     line-height: 2;
     color: rgb(75, 153, 255);
     width: 69vh;
+    transition: .2s 1.4s;
+    transform-origin: right;
 }
+.home p[data-scroll="in"]{
+    transform: scaleX(1);
+}
+
 #gallary h1{
-    padding-top: 1.9vh;
+    padding-top: 4.9vh;
     text-align: center;
     font-size: 1.6rem;
     font-family:cursive;
     color: yellow;
 }
+
 #trainer  h2{
     padding-top: 1.9vh;
     text-align: center;
     font-size: 1.6rem;
     font-family:cursive;
     color: yellow;
+    transition: .9s;
+    transform: scaleX(0);
+}
+#trainer  h2[data-scroll="in"]{
+    transform: scaleX(1);
 }
 .intro p{
     font-size: 17px;
     line-height: 2;
     text-align: center;
     color: rgb(75, 153, 255);
-    width: 44vh;
+    width: 100vh;
     font-family: serif;
+    top: 10vh;
+    position: relative;
+    transition: .5s ease-out;
+    transform-origin: center;
+    transform: scaleX(0);
+}
+.intro p[data-scroll="in"]{
+    transform: scaleX(1);
 }
 
 #shop h2{
@@ -72,19 +103,23 @@ h5{
 }
 
 button{
-    background-color:rgb(75, 153, 255) ;
+    background-color:transparent;
     color: white;
     padding: .7vh;
     border-radius: 1vh;
+    border: 2px solid yellow;
     position: absolute;
     left: 29vh;
     top: 68vh;
+    transition: 1s;
+    transform: scale(1.3);
 }
 button:hover{
     background-color: yellow;
     padding: 1.7vh;
     color: black;
     font-weight: 700;
+
 }
 
 /* nav bar styling */
@@ -160,6 +195,12 @@ a:hover{
     width: 70%;
     margin-top: 1vh;
     padding: 3h;
+    transition: .5s;
+    transform: scaleX(0);
+}
+.box img[data-scroll="in"]
+{
+    transform: scaleX(1);
 }
 
 
@@ -189,9 +230,9 @@ a:hover{
 
 /* shop section styling */
 #shop{
-    height: 70vh;  
+    height: 100vh;
     width: 100%;
-    top: 16vh;
+    top: 38vh;
     position: relative;
 }
 .items1{
@@ -201,9 +242,12 @@ a:hover{
    margin-top: 3%;
 }
 .box1{
-background-color: gray;
+background-color: transparent;
+border: 1px solid yellow;
 height: 50vh;
 width: 45vh;
+position: relative;
+top: 3vh;
 }
 
 /* contact section styling */

@@ -1,4 +1,5 @@
-@media (max-width:768px){
+@media (max-width:768px)
+{
    /* nav section responsive css */
     a{
         padding: 0.6rem;
@@ -16,7 +17,7 @@
     }
     .home h1{
         font-size: 1.5rem;
-        margin-top: -9vh;
+        margin-top: -13vh;
         padding-left: 2vh;
         font-family: fangsong;
     }
@@ -28,23 +29,29 @@
     }
     button{
         left: 4vh;
-        top: 35vh;
+        top: 40vh;
     }
     button:hover{
       padding: .7vh;
     }
 
+    .intro p{
+        top: 3vh;
+        line-height: 1.7;
+        width: 52vh;
+    }
+
    /* contact section responsive css */
     #contact{
         height: 58vh;
-        top: -3vh;
+        top: 16vh;
     }
     .contact{
        width: 40vh;
        height: 78vh;
     }
     .lottie{
-        top: 4vh;
+        top: -3vh;
         left: 6vh;
         height: 11vh;
     }
@@ -52,16 +59,21 @@
         top: -4vh;
     }
     #btn{
-        margin-left: 9vh;
+        margin-left: 12.47vh;
+        margin-top: 3vh;
     }
 }
 
 
 
-@media (max-width:427px){
+@media (max-width:427px)
+{
     nav{
         padding: 1.8rem;
 
+    }
+    .home h1 {
+        margin-top: -8vh;
     }
     .lottie{
         top: -1.8vh;
@@ -73,14 +85,23 @@
     .items{
         justify-content: center;
         margin-left: 2rem;
+        width: 39vh;
     }
     .box img{
         height: 40vh;
         width: 90%;
+        width: 100%;
     }
     #trainer{
         top: 16vh;
         position: relative;
+    }
+    .intro p{
+        width: 36vh;
+        top: 9vh;
+    }
+    .intro img{
+        margin-left: 6vh;
     }
     #shop{
         top: 27vh;
@@ -89,16 +110,21 @@
     }
     #contact{
         height: 58vh;
+        top: -10vh;
     }
     button{
-        top: 27vh;
-        left: 2vh;
+        top: 26vh;
+        left: 4vh;
     }
     .home h5{
-        padding-left: 4vh;
+        padding-left: 5.5vh;
     }
     form{
         top: -8vh;
+    }
+    #btn {
+        margin-left: 7.5vh;
+        margin-top: 2vh;
     }
 }
 
