@@ -75,7 +75,7 @@
         background: url(./images/icons8-menu-24.png) center center/cover;
         position: absolute;
         top: 1vh;
-        left: 21.4vh;
+        left: 22.4vh;
         height: 2rem;
         width: 3rem;
         border-radius: 18px;
@@ -86,7 +86,7 @@
         background: url(./images/icons8-cancel-50.png) center center/cover;
         position: absolute;
         top: 1vh;
-        left: 20.4vh;
+        left: 22.4vh;
         height: 3rem;
         width: 3rem;
         border-radius: 9px;
@@ -99,7 +99,7 @@
         display: block;
         width: 21vh;
         position: relative;
-        left: 12.3vh;
+        left: 14.3vh;
         top: 2vh;
     }
     li{
@@ -159,14 +159,22 @@
     #trainer{
         top: 37vh;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 79vh;
+    }
+    .intro{
+        justify-content: center;
     }
     .intro p{
         width: 36vh;
-        top: 9vh;
+        top: 7vh;
     }
     .intro img{
-        margin-left: 5.3vh;
-
+    display: flex;
+    margin: auto;
+    height: 30vh;
+    width: 28vh;
     }
     #shop{
         top: 34vh;
